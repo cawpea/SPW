@@ -1,0 +1,29 @@
+.detail {
+  position: relative;
+  height: 100%;
+  color: #FFF;
+  background: #000;
+  &-header {
+    height: 100vh;
+    background: url(/assets/image/spot1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-title {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    padding: 15px 30px;
+    background: rgba(0,0,0,.8);
+    font-size: 3em;
+  }
+  &-content {
+    position: absolute;
+    padding: 80px 30px 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.7) 70%, transparent);
+  }
+}
